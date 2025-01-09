@@ -7,12 +7,12 @@
 /* header tag */
 /* NAV STYLES */
 header{
- 
+    background-color:#FFF8F3; ;
     align-items: center; 
     background-image:url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right; 
-    background-size: contain, 30%;           
+    background-position: top left,95% 100%; 
+    background-size: contain, 47%;           
 }
 header nav{
     display: flex;
@@ -87,22 +87,70 @@ header .banner .description p{
 header .banner .btn-1{
     margin-right: 26px;
 }
-header .banner .btn-1,header .banner .btn-2{
-    /* margin-top: -10px; */
+header .banner .btn-1 i{
+    color:white;
+}
+header .banner .btn-2 i{
+    color:#FD6E0A;
+}
+header .banner .btn-1{
+    color:white;
     background-color: #FD6E0A;
-    font-size: 17px;
-    color:#474747;
+}
+header .banner .btn-1,header .banner .btn-2{             
+    font-size: 17px; 
     font-weight: 700;
     padding: 15px 30px;
     border-radius: 4px;
     border:none;
     cursor: pointer;
 }
-header .portfoili-image{ 
+header .banner .btn-2{
+    color:#FD6E0A;
+    background-color: white;
+    border:1px solid #FD6E0A; 
+}
+header .portfoilo-image img{
+    max-width: 497px; 
+    margin-bottom: -4px;
+}
 
- 
+/* ------------------ */
+/* about_me section */
+section .about{
+    max-width:1020px;
+    margin:111px 163px;
+    text-align: center;
+    border-width:111px 122px;
+    border-style: solid;
+    border-color: #FFF8F3;
 }
-header .portfoili-image img{
-    width: 496px;
-   
+.about .about-head{
+    font-size: 30px;
+    color:#181818;
+    font-weight: 800;
+    margin-bottom: 26px;
 }
+.about .description{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+.about .short-tag{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.about .short-tag p{
+font-size: 17px;
+color:#757575;
+line-height: 25px;
+}
+.about .short-tag h4{
+    font-weight: 800;
+    font-size: 17px;
+    color:#757575;
+    line-height: 25px;
+    }
+
+
